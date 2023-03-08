@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+.container {
+    width: 600px;
+    min-height: 400px;
+    margin: auto;
+    background-color: red;
+    padding: 3px;
+    
+    
+}
+
+.container .heading {
+    background-color: red;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+.container .form .input {
+    padding: 5px;
+    margin: 10px;
+    width: 500px;
+}
+
+.container .form .button  {
+    padding: 6px;
+    width: 70px;
+    background-color: white;
+}
+
+
+
+.container .items .item {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    
+
+}
+
+.container .title {
+    color: white;
+    margin: 10px;
+    margin-top: 2px;
+    text-align: center;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item i {
+    margin-right: 3px;
+    cursor: pointer;
+   
+}
+
+.delete {
+    text-align: center;
+}
+
+.delete input {
+    margin: 10px;
+    padding: 7px;
+    background-color: white;
+    cursor: pointer;
+}
